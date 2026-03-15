@@ -24,5 +24,5 @@ def connectBreeze(sessionToken):
     breeze.generate_session(api_secret=os.getenv('BREEZE_API_SECRET'), session_token=sessionToken)
     return breeze
 
-eel.start('index.html', mode=None, host='0.0.0.0', size=(800, 600), port=PORT)
+eel.start('index.html', mode=None, host='0.0.0.0', size=(900, 600), port=PORT)
 
